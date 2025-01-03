@@ -22,8 +22,18 @@ h3{
 }
 
 .b2{
+    background-color: #e7d6ab;
     display: flex;
     justify-content: center;
+}
+
+.b3{
+    background-color: #46516f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
 }
 
 .card{
@@ -42,7 +52,8 @@ h3{
 
 .quote{
     max-width:300px;
-    font-family: sans-serif;
+    font-family: serif;
+    font-size: larger;
     background-color: #c0c5d1;
     padding: 20px;
     border: 5px;
@@ -56,11 +67,25 @@ ul{
     gap: 30px;
     padding-top: 15px;
     padding-right: 20px;
+    font-weight: bold;
 }
 
 .propaganda{
     display: flex;
-    font-family: Impact;
+    font-family: Verdana;
+    font-weight:600;
+    background-color: rgb(85, 131, 218);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+button{
+    background-color: lightblue;
+    font-family: Cambria;
+    border-radius: 5px;
+    border-color: lightblue;
+    color: white;
 }
 
 .header{
